@@ -11,8 +11,6 @@ dist/
 *.tsbuildinfo
 
 # Environment files — never commit secrets
-.env
-.env.local
 .env.*.local
 
 # Logs
@@ -25,9 +23,9 @@ yarn-error.log*
 Thumbs.db
 
 # Editor directories
-.vscode/
 .idea/
 
 # Playwright test output
 playwright-report/
 test-results/
+config.bat
